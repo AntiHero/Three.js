@@ -1,0 +1,38 @@
+{
+  "name": "three",
+  "version": "1.0.0",
+  "description": "This project has been created using **webpack-cli**, you can now run",
+  "main": "webpack.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.14.1",
+    "@webpack-cli/generators": "^2.1.0",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^8.1.1",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntiHero/Three.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntiHero/Three.js/issues"
+  },
+  "homepage": "https://github.com/AntiHero/Three.js#readme"
+}
